@@ -23,4 +23,4 @@ event-driven Programing
 
 ***
 
-[Ball](https://github.com/insub2004/Break-Out/doc/Ball.md)
+[Ball](https://github.com/insub2004/Break-Out/blob/main/doc/Ball.md)
