@@ -1,3 +1,4 @@
+package ball;
 public class Ball {
 
     private int x;

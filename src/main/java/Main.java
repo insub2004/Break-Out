@@ -1,15 +1,22 @@
-public class Main {
+import ball.Ball;
+import ball.PaintableBall;
+
+import javax.swing.*;
+
+public class Main extends JFrame {
+
+    static final int FRAME_WIDTH = 500;
+    static final int FRAME_HEIGHT = 400;
+
     public static void main(String[] args) {
-        int x = 1;
-        int y = -1;
-        int radius = Integer.MAX_VALUE;
+        JFrame jFrame = new JFrame("벽돌 깨기!!!");
+        jFrame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
+        jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        jFrame.setResizable(true);
+        jFrame.setVisible(true);
 
-        Ball ball = new Ball(x, y, radius);
+        JPanel jPanel = new JPanel();
 
-        if ((x != ball.getX()) || (y != ball.getY()) || (radius != ball.getRadius())) {
-            System.out.println("Ball 구현이 잘못되었습니다.");
-        } else {
-            System.out.println("Ball이 생성되었습니다 : " + ball);
-        }
+        PaintableBall ball = new PaintableBall(10,10,10);
     }
 }
