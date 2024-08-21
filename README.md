@@ -22,5 +22,19 @@ event-driven Programing
 - JUnit5
 
 ***
-
+### DOC
 [Ball](https://github.com/insub2004/Break-Out/blob/main/doc/Ball.md)
+
+***
+### 진행상황
+- World 생성후 Paintable 공 띄우기
+
+<img width="571" alt="image" src="https://github.com/user-attachments/assets/8e6d1faf-525c-45a6-950d-da4a023bc99f">
+
+
+***
+### reference
+- 수석님 GitLab
+- GUI 및 관련 클래스들 (https://velog.io/@jdc05163/GUI)
+- AWT Swing (https://velog.io/@seochan99/9-%EC%9E%90%EB%B0%94-GUI-%EA%B8%B0%EC%B4%88-AWT%EC%99%80-Swing)
+- JFrame,JPanel (https://velog.io/@msung99/GUI)
